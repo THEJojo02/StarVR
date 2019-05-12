@@ -322,7 +322,7 @@ public class PluginWrapper : MonoBehaviour {
 		if( (enter)&& (snapallowed)) {
 				
 			//planetenbahn.GetComponent<SphereCollider> ().enabled = false;
-			//snappos.GetComponent<SphereCollider> ().enabled = false;
+			objectA.GetComponent<SphereCollider> ().enabled = false;
 			objecttosnap.transform.position = snappos.transform.position;
 			objectA.GetComponent<Rigidbody> ().useGravity = false;
 		} 
