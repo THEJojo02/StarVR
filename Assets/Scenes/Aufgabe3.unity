@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.054865554, g: 0.051933378, b: 0.05645238, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1642,13 +1642,13 @@ MonoBehaviour:
   alloweddistance: 0
   left: {fileID: 1698511134}
   right: {fileID: 1698511133}
-  allowsnap: 1
-  snapok: 1
+  allowsnap: 0
+  snapok: 0
   snapzo: {fileID: 1725954919}
   objecttosnap: {fileID: 2131658401}
   planetenbahn: {fileID: 0}
   snappos: {fileID: 1900045255}
-  snapallow: 1
+  snapallow: 0
   player: {fileID: 1698511135}
 --- !u!135 &1725954922
 SphereCollider:
