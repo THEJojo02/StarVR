@@ -5,12 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class start_or_end : MonoBehaviour {
 
-	public void start(){
+	public GameObject ob;
+	public bool o;
+	public void start_withoutDOF(){
+		o = false;
+		ob.GetComponent<dont_destroy> ().doftrue = o;
 		SceneManager.LoadScene ("Brief", LoadSceneMode.Single);
+
 	}
 
-	public void end(){
-		Application.Quit ();
+	public void start_withDOF(){
+		o = true;
+		o = ob.GetComponent<dont_destroy> ().doftrue = o;
+		SceneManager.LoadScene ("Brief", LoadSceneMode.Single);
+
 	}
+
 
 }

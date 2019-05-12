@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04441449, g: 0.041873418, b: 0.04585985, a: 1}
+  m_IndirectSpecularColor: {r: 0.044414505, g: 0.0418735, b: 0.045859963, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3760,7 +3760,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839622}
-  from: {fileID: 0}
 --- !u!114 &665839723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3775,7 +3774,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839614}
-  from: {fileID: 0}
 --- !u!114 &665839724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3790,7 +3788,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839615}
-  from: {fileID: 0}
 --- !u!114 &665839725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3805,7 +3802,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839616}
-  from: {fileID: 0}
 --- !u!114 &665839726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3820,7 +3816,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839617}
-  from: {fileID: 0}
 --- !u!114 &665839727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3835,7 +3830,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839619}
-  from: {fileID: 0}
 --- !u!114 &665839728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3850,7 +3844,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839620}
-  from: {fileID: 0}
 --- !u!114 &665839729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3865,7 +3858,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839621}
-  from: {fileID: 0}
 --- !u!114 &665839730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3880,7 +3872,6 @@ MonoBehaviour:
   player: {fileID: 1113311885}
   hand: {fileID: 1943500544}
   objecttograb: {fileID: 665839613}
-  from: {fileID: 0}
 --- !u!1 &743661480
 GameObject:
   m_ObjectHideFlags: 0
@@ -6067,6 +6058,10 @@ Prefab:
       propertyPath: szneptun
       value: 
       objectReference: {fileID: 1311212529}
+    - target: {fileID: 1500533308355576, guid: 319646d02b98c2c46b865b29dad9d564, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 319646d02b98c2c46b865b29dad9d564, type: 2}
   m_IsPrefabAsset: 0
