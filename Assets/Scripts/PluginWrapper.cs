@@ -289,13 +289,13 @@ public class PluginWrapper : MonoBehaviour {
 			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
 			objecttosnap.GetComponent<Aufgabe3> ().isSnappedSp1 = true;
 			//objecttosnap.GetComponent<Aufgabe3>().mMaterial.color = Color.green;
-			objectA.GetComponent<MeshCollider> ().enabled = false;
+			objectA.GetComponent<Collider> ().enabled = false;
 
 
 		}
 
 		if (objecttosnap.name == "Sekundaerspiegel") {
-			objectA.GetComponent<MeshCollider> ().enabled = false;
+			objectA.GetComponent<Collider> ().enabled = false;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
 			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
@@ -305,7 +305,7 @@ public class PluginWrapper : MonoBehaviour {
 		}
 
 		if (objecttosnap.name == "konvexe Linse") {
-			objectA.GetComponent<MeshCollider> ().enabled = false;
+			objectA.GetComponent<Collider> ().enabled = false;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			objectA.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
 			objectA.transform.rotation = Quaternion.Euler(-90,0,0);
@@ -322,7 +322,7 @@ public class PluginWrapper : MonoBehaviour {
 		if( (enter)&& (snapallowed)) {
 				
 			//planetenbahn.GetComponent<SphereCollider> ().enabled = false;
-			objectA.GetComponent<SphereCollider> ().enabled = false;
+			objectA.GetComponent<Collider> ().enabled = false;
 			objecttosnap.transform.position = snappos.transform.position;
 			objectA.GetComponent<Rigidbody> ().useGravity = false;
 		} 
