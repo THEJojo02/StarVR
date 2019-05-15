@@ -248,7 +248,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: user.keystore
+  AndroidKeystoreName: C:/Users/Nhung/Desktop/StarVR/StarVR/user.keystore
   AndroidKeyaliasName: star
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
